@@ -1,0 +1,15 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/001_Add_enums.sql
+  - include:
+      file: db/changelog/002_Add_table_users.sql
+  - include:
+      file: db/changelog/003_Add_table_applicants.sql
+  - include:
+      file: db/changelog/004_Add_table_advisors.sql
+  - include:
+      file: db/changelog/005_Add_table_addresses.sql
+  - include:
+      file: db/changelog/006_Add_table_phone_numbers.sql
+  - include:
+      file: db/changelog/007_Add_table_applications.sql
